@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Fossil E-commerce Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.fossil.listeners.ExtentReportListener"/>
+    </listeners>
+
+    <test name="Cart Flow">
+        <classes>
+            <class name="com.fossil.tests.CartFlowTest"/>
+        </classes>
+    </test>
+</suite>
